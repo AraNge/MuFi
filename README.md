@@ -7,7 +7,7 @@ MuFi is a Haskell-based music recognition system that identifies songs by genera
 Below are visual demonstrations of MuFi's functionality:
 
 - **Console Output**: A screenshot of the program’s output showing the best match and potential matches.
-  ![Console Output](assets/console_output.png)
+  ![Console Output](assets/console_output.jpg)
 
 - **Program Execution**: A GIF showing the process of running MuFi with a sample audio file.
   ![Demo GIF](assets/demo_1.gif)
@@ -104,7 +104,7 @@ Below are visual demonstrations of MuFi's functionality:
   - To update visuals, capture new screenshots or record program execution and convert to GIF using tools like `ffmpeg` or EZGIF. Save assets in `assets/` and update the README.
 
 ## Planned Features
-- **Real-Time Microphone Input**: Enable live audio capture using `portaudio` or `pulseaudio`.
+- **Real-Time Microphone Input**: Enable live audio capture using `ffmeg`.
 - **Improved Accuracy**: Enhance fingerprinting algorithms to handle noisy or low-quality audio.
 - **YouTube Integration**: Automatically open YouTube Music search results for recognized songs (partially implemented).
 - **Testing**: Expand test suite with diverse audio samples to ensure robustness.
